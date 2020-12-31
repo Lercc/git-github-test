@@ -13,3 +13,6 @@ body{
   border: 1px solid #ddd;
   text-align: left;
 }
+.cabecera {
+  background-color: orchid;
+}
