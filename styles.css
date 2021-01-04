@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body{
   margin: 0;
   padding: 0;
@@ -5,16 +8,34 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #333;
+  background-color: rgb(34, 30, 54);
 }
 .container {
   margin: 0 auto;
-  padding: 1em;
   width: 70%;
   border: 1px solid #ddd;
   text-align: left;
+  background-color: #fff;
 }
 .cabecera {
+  display: flex;
+  flex-direction: row;
   padding: 4px 0px;
-  background-color: orange;
+  background-color: rgb(47, 58, 141);
   text-align: center;
+  color: #fff;
+}
+.cabecera--logo{
+  width: 40%;
+  background-image: url("./imagenes/dragon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.cabecera--content{
+  width: 60%;
+  text-align: left;
+}
+.post {
+  padding: 0px 4px;
 }
