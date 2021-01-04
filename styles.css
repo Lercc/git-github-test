@@ -37,7 +37,8 @@ body{
   text-align: left;
 }
 .post {
-  padding: 0px 4px;
+  padding: 0px 30px;
+  text-align: justify;
 }
 footer {
   width: 100%;
